@@ -50,7 +50,7 @@ body {
 strong {
   color: black;
 }
-/* scroll bar */
+/* scroll  */
 /* width */
 ::-webkit-scrollbar {
   width: 2px;
@@ -93,7 +93,8 @@ tabs {
 
 .active {
   border-bottom: 3px solid blue;
-  color: black;
+  color: #655dc6;
+  font-weight: bold;
 }
 
 button {
