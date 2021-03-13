@@ -1,0 +1,60 @@
+{
+    "medical":[
+        {  "_id":"0",
+            "title":"hospitalization",
+            "cap_per_claim":"1000.00 SGD",
+            "cap_per_month":"500.00 SGD",
+            "cap_per_yaer":"200.00 SGD",
+            "available":"300.50 SGD"
+
+
+        },
+        {  "_id":"1",
+            "title":"Dental",
+            "cap_per_claim":"900.00 SGD",
+            "cap_per_month":"500.00 SGD",
+            "cap_per_yaer":"200.00 SGD",
+            "available":"150.50 SGD"
+
+
+        },
+        {  "_id":"2",
+            "title":"Insurance",
+            "cap_per_claim":"700.00 SGD",
+            "cap_per_month":"500.00 SGD",
+            "cap_per_yaer":"200.00 SGD",
+            "available":"200.50 SGD"
+
+
+        }
+    ],
+    "transport":[
+        {  "_id":"0",
+            "title":"Gas Allowance",
+            "cap_per_claim":"1000.00 SGD",
+            "cap_per_month":"500.00 SGD",
+            "cap_per_yaer":"200.00 SGD",
+            "available":"300.50 SGD"
+
+
+        },
+        {  "_id":"1",
+            "title":"Air Fare",
+            "cap_per_claim":"900.00 SGD",
+            "cap_per_month":"500.00 SGD",
+            "cap_per_yaer":"200.00 SGD",
+            "available":"150.50 SGD"
+
+
+        },
+        {  "_id":"2",
+            "title":"Taxi/Grab",
+            "cap_per_claim":"700.00 SGD",
+            "cap_per_month":"500.00 SGD",
+            "cap_per_yaer":"200.00 SGD",
+            "available":"200.50 SGD"
+
+
+        }
+    ]
+}

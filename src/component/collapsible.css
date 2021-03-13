@@ -1,0 +1,122 @@
+body {
+  background: #f2f3f6;
+}
+.collapse {
+  width: 75%;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  background: white;
+  box-shadow: 0 0 2px 0px #888888;
+}
+.top {
+  border-bottom: 2px solid lightgray;
+  align-items: center;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.top2 {
+  display: flex;
+}
+.title3 {
+  margin-left: 57%;
+}
+.title {
+  font-weight: bold;
+  padding-top: 10px;
+}
+.arrow {
+  margin-left: auto;
+}
+.bottom {
+  overflow: scroll;
+  height: auto;
+  transition: 0.3s max-height;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.bottom-tile {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.title2 {
+  color: grey;
+}
+.title3 {
+  color: grey;
+}
+strong {
+  color: black;
+}
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  width: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 5px;
+}
+table {
+  width: 100%;
+  border: none;
+}
+td {
+  padding: 6px;
+}
+th {
+  color: grey;
+}
+
+/*Tabs */
+tabs {
+  font-family: arial;
+  width: 70%;
+  margin-top: 30px;
+  max-width: 1000px;
+}
+
+.tab-buttons {
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.active {
+  border-bottom: 3px solid blue;
+  color: black;
+}
+
+button {
+  margin-right: 15px;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 0.2s;
+  border-bottom: 2px solid transparent;
+}
+.delbtn {
+  margin-right: none;
+  font-size: 11px;
+
+  background: none;
+  background-color: #655dc6;
+  border-radius: 8px;
+  padding: 5px 20px;
+
+  color: white;
+  font-weight: bold;
+}
